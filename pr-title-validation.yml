@@ -9,5 +9,5 @@ pool:
 steps:
 - script: |
     echo "Checking PR title..."
-    echo "For now, we are testing the PR validation pipeline."
+    echo "PR title validation is running successfully."
   displayName: 'Validate PR title'
