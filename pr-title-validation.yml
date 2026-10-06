@@ -1,0 +1,13 @@
+trigger: none
+
+pr:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: |
+    echo "Checking PR title..."
+    echo "For now, we are testing the PR validation pipeline."
+  displayName: 'Validate PR title'
