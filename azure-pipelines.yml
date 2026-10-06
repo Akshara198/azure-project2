@@ -7,3 +7,6 @@ pool:
 steps:
 - script: echo "hi this is akshara project 2!"
   displayName: 'Run a test'
+
+- script: echo "This is my second step!"
+  displayName: 'Run second test'
